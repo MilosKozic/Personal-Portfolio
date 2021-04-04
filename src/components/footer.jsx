@@ -1,7 +1,7 @@
 const Footer =()=>{
     return(
         <footer>
-            Copyright &copy; Milos Kozić
+            Copyright 2021 &copy; Milos Kozić
         </footer>
     )
 }
