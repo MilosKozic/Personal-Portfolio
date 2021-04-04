@@ -1,10 +1,18 @@
 import Projects from './sections/projects'
 import Form from './sections/form.jsx'
-const Main =()=>{
-    return(
+import About from './sections/about.jsx'
+const Main = () => {
+    return (
         <main>
-            <Projects/>
-            <Form/>
+            <section id="about">
+              <About/>
+            </section>
+            <section  id="project">
+                <Projects />
+            </section>
+            <section id="contact">
+                <Form />
+            </section>
         </main>
     )
 }
