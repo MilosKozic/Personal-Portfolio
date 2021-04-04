@@ -1,13 +1,10 @@
+import Projects from './sections/projects'
+import Form from './sections/form.jsx'
 const Main =()=>{
     return(
         <main>
-            <div>
-                <ul className="projects">         
-                    <li>
-                    <a target="_blank" href="http://MilosKozic.github.io/COUNTRIES_APP">Countries App</a>
-                    </li>
-                </ul>          
-            </div>
+            <Projects/>
+            <Form/>
         </main>
     )
 }

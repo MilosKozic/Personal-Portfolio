@@ -10,7 +10,7 @@ nav{
   margin-bottom: 60px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 nav ul{
   display: flex;
@@ -50,4 +50,37 @@ footer{
 }
 .projects a:hover{
   color: #777;
+}
+.contact{
+  
+  justify-items: center;
+}
+.contact form{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.contact input,
+.contact textarea{
+  display: block;
+  width: 70%;
+  margin: 10px 0;
+  padding: 8px ;
+  
+}
+.contact label{
+  display: block;
+  margin-top: 5px;
+}
+textarea{
+  height: 80px;
+}
+.button{
+  margin-top: 20px;
+  background: #777;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 100%;
 }

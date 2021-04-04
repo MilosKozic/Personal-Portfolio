@@ -2,8 +2,8 @@ const Nav =()=>{
 return(
     <nav>
   <div >
-            <h2>Mилош Козић</h2>
-        <p>My own portfolio site </p>
+            <h2>Miloš Kozić</h2>
+        <p>&#x2774; web developer &#x2775;</p>
     </div>
     <ul>
         <li><a href="/">Projects</a></li>
