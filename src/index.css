@@ -2,7 +2,9 @@ body{
   max-width: 1200px;
   margin: 20px auto;
   padding: 0 20px;
-  font-family: 'Noto Serif', serif;
+  font-family:'Courier New', Courier, monospace;
+  background-image: url(image/56519788.jpg);
+  background-size: 100% 100%;
 }
 nav{
   display: flex;
@@ -21,66 +23,79 @@ nav li{
   list-style-type: none;
   margin-left: 20px;
 }
-nav h2{
-  font-size: 2em;
+nav h1{
+  font-size: 2.2em;
+  color: #7395ae;
+  font-weight: bolder;
 }
-nav p, nav a{
-  color: #777;
-  font-weight: 300;
+nav a{
+  color: #a17f1a;
+  font-size: 1.25em;
+  text-decoration: none;
+ font-weight: bold;
+}
+nav p{
+  color:  #557a95;
+  font-size: 1.25em;
+  text-decoration: none;
+ font-weight: bold;
 }
 footer{
-  color: #777;
+  color: white;
   text-align: center;
   margin: 80px auto 20px;
 }
+
 .projects li{
   list-style-type: none;
   margin-left: 20px;
   text-decoration: none;
 }
 .projects a{
-  color: black;
+  color: #b1a296;
   text-decoration: none;
   cursor: pointer;
   display: block;
   margin: 40px auto;
   padding-left: 30px;
-  border-left: 6px solid #777;
+  border-left: 6px solid #b1a296;
   font-size: 1.5em;
+  font-weight: bold;
 }
 .projects a:hover{
-  color: #777;
+  color: #a17f1a;
 }
 .contact{
+  /* background-image: url(image/3702528.jpg);
+  background-size: 100% 100%; */
   
-  justify-items: center;
+   width: 40%; 
+  margin: auto; 
 }
 .contact form{
   max-width: 400px;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .contact input,
 .contact textarea{
   display: block;
   width: 70%;
-  margin: 10px 0;
+  margin: 10px 40px;
   padding: 8px ;
-  
-}
-.contact label{
-  display: block;
-  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #a17f1a;
 }
 textarea{
   height: 80px;
 }
-.button{
-  margin-top: 20px;
-  background: #777;
+.contact input[type=submit]{
+  background: #a17f1a;
   color: white;
-  padding: 6px;
   border: 0;
   font-size: 1.2em;
   cursor: pointer;
-  width: 100%;
+  width: 75%;
+  border-radius: 8px;
 }
